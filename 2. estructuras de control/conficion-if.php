@@ -8,7 +8,9 @@ if($edad>=18){
 }
 
 $numero=23;
+
 print("<br>");
+
 if($numero%2 == 0){
     
     print("es par");
