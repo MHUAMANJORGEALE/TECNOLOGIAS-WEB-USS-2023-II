@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Ejercicio5-PHP</title>
+</head>
+<body>
+    <h2>Ingrese que tipo de llamada realizo</h2>
+    <form action="ejercicio5.php" method="post">
+        <label for="tipo-llamada">Elija que tipo de llamada realizó:</label>
+        <select name="tipo-llamada" id="tipo-llamada">
+            <option value="Local">Llamada Local</option>
+            <option value="Nacional">Llamada Nacional</option>
+            <option value="Internacional">Llamada Internacional</option>
+        </select> 
+        <fieldset>
+            <p>
+                <label for="minutos">Ingrese los minutos que se usaron en la llamada: </label>
+                <input type="number" name="minutos" id="minutos"/>
+            </p> 
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Cancelar</button>
+            </p>  
+    </form>
+</body>
+</html>
